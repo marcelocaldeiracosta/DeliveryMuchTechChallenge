@@ -10,9 +10,9 @@ app.use(bodyParser.json());
 // Definição de rotas
 app.get("/healthcheck", (_, res) => res.status(200).send());
 
-app.post("/v1/api/fiscalizacao",
-  expressAsyncHandler(routes.fiscalizacao.post));
+app.get("/recipes",
+  expressAsyncHandler(routes.recipes.get));
 
 // Executando o servidor
 app.listen(config.PORT, config.HOST,
-  () => console.log(`Listening on http://${config.HOST}:${config.PORT}`));
+  () => console.log(`Escutando em http://${config.HOST}:${config.PORT}`));
