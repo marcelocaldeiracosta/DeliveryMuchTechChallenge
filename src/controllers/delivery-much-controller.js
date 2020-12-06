@@ -1,6 +1,5 @@
 const { config } = require("../config");
 const axios = require("axios");
-const { json } = require("body-parser");
 let msgError = null;
 
 class DeliveryMuchController {

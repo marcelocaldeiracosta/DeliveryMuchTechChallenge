@@ -1,5 +1,4 @@
 const axios = require("axios");
-const { config } = require("../src/config");
 jest.mock("axios");
 
 
