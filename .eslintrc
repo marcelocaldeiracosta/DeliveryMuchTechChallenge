@@ -1,0 +1,37 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "jest": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 10,
+    "sourceType": "script"
+  },
+  "rules": {
+    "semi": "error",
+    "quotes": ["error", "double"],
+    "brace-style": ["error", "1tbs"],
+    "camelcase": "warn",
+    "space-before-blocks": "error",
+
+    "prefer-const": "warn",
+    "no-var": "error",
+    "no-debugger": "error",
+    "no-unused-vars": "warn",
+    "no-extra-semi": "error",
+    "no-extra-parens": "error",
+    "no-spaced-func": "error",
+    "no-trailing-spaces": "error",
+    "no-unneeded-ternary": "error",
+
+    "no-underscore-dangle": ["error", { "allow": []}],
+    "object-curly-spacing": ["error", "always"],
+    "spaced-comment": ["error", "always"],
+
+    "indent": [2, 2]
+  }
+}

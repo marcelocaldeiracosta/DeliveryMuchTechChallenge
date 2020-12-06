@@ -1,0 +1,35 @@
+{
+  "name": "deliverymuchtechchallenge",
+  "version": "1.0.0",
+  "description": "Prova tecnica Delivery Much",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest tests --coverage --coverageDirectory .coverage --reporters='jest-junit'",
+    "lint": "eslint app.js tests/*.js src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelocaldeiracosta/DeliveryMuchTechChallenge.git"
+  },
+  "author": "Marcelo Caldeira",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",    
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/jest": "^26.0.10",
+    "eslint": "^7.7.0",
+    "jest": "^26.5.3",
+    "jest-junit": "^12.0.0",
+    "junit": "^1.4.9"
+  },
+  "bugs": {
+    "url": "https://github.com/marcelocaldeiracosta/DeliveryMuchTechChallenge/issues"
+  },
+  "homepage": "https://github.com/marcelocaldeiracosta/DeliveryMuchTechChallenge#readme"
+}
