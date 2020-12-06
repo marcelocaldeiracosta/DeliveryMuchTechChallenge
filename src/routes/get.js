@@ -20,4 +20,4 @@ const getRecipes = async (req, res) => {
 
 module.exports = {
   getRecipes
-}
+};
