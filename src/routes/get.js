@@ -8,7 +8,13 @@ const getRecipes = async (req, res) => {
     res.status(400).send("Só poderão ser enviados no máximos 3 ingredientes por pesquisa");
     return;
   }
-  res.status(200).send("OK");
+  const { receitas, msgError }  = await deliveryMuchController.getRecipesWs(i);
+  if (msgError != null) {
+    res.status(400).send(msgError);
+    return;
+  }
+
+  res.status(200).send(receitas);
 
 };
 
