@@ -1,13 +1,19 @@
+#### CONFIG
+HOST: Ip localg que rodará o serviço
+PORT: Porta do serviço
+API_RECIPE: O endereço da API do Recipe Puppy
+API_GLIPHY: O endereço da API do GIPHY
+API_KEY_GLIPHY: A chave gerado para a aplicação no GLIPHY
 
 #### A Estrutura
 
 A API possui apenas um endpoint, que deve respeitar a seguinte chamada:
 
-`http://{HOST}/recipes/?i={ingredient_1},{ingredient_2}`
+`http://{HOST}:{PORT}/recipes/?i={ingredient_1},{ingredient_2}`
 
 Exemplo:
 
-`http://127.0.0.1/recipes/?i=onion,tomato`
+`http://127.0.0.1:5678/recipes/?i=onion,tomato`
 
 
 A resposta dessa requisição deve seguir a seguinte estrutura:
