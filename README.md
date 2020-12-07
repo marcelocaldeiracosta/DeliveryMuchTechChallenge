@@ -1,9 +1,14 @@
 #### CONFIG
 HOST: Ip localg que rodará o serviço
+
 PORT: Porta do serviço
+
 API_RECIPE: O endereço da API do Recipe Puppy
+
 API_GLIPHY: O endereço da API do GIPHY
+
 API_KEY_GLIPHY: A chave gerado para a aplicação no GLIPHY
+
 
 #### A Estrutura
 
